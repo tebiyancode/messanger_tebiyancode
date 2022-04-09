@@ -302,3 +302,13 @@ body
     border-radius: 30px;
     font-size: 1em;
 }
+
+@media only screen and (max-width: 600px) {
+    .leftSideApp{
+        flex: 100%;
+    }
+    .rightSideApp{
+        flex: 100%;
+        display:none ;
+    }
+}
